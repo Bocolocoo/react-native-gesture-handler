@@ -1,5 +1,7 @@
 import React from 'react';
-import { View, ViewPropTypes, requireNativeComponent } from 'react-native';
+import { View, requireNativeComponent } from 'react-native';
+
+import {ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 const iface = {
   name: 'GestureHandlerRootView',
